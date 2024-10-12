@@ -1,0 +1,101 @@
+body {
+    font-family: 'Northern Soul', sans-serif;
+}
+
+.cleanplaylist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3E0013;
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100vw;
+    height: 60px;
+    background-color: #154560;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-button {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.cleanplaylist-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 100px;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.cleanplaylist-title {
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+    margin-bottom: 2rem;
+}
+
+.cleanplaylist-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cleanplaylist-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.cleanplaylist-tracks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cleanplaylist-track {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.cleanplaylist-back-button {
+    background-color: #5f7cf9;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 2rem;
+    margin-right: 10px; 
+}
+
+.cleanplaylist-back-button:hover {
+    background-color: #4062ed;
+}
+
+.cleanplaylist-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+

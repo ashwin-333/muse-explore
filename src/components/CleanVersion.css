@@ -1,0 +1,113 @@
+.cleanversion-container {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3E0013;
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cleanversion-content {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.cleanversion-title {
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+.cleanversion-login-button {
+    background-color: #5f7cf9;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.cleanversion-login-button:hover {
+    background-color: #4062ed;
+}
+
+.cleanversion-playlists {
+    margin-top: 20px;
+}
+
+.cleanversion-playlist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    width: 100%;
+    justify-items: center;
+    padding-bottom: 60px;
+}
+
+.cleanversion-playlist-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #5f7cf9;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    text-align: center;
+    width: 100%;
+    max-width: 220px;
+}
+
+.cleanversion-playlist-button:hover {
+    background-color: #4062ed;
+    transform: scale(1.05);
+}
+
+.cleanversion-playlist-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.cleanversion-playlist-name {
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 5px;
+}
+
+.cleanversion-playlist-tracks {
+    margin-top: 2rem;
+    color: white;
+}
+
+.cleanversion-playlist-tracks ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cleanversion-playlist-tracks li {
+    margin-bottom: 1rem;
+}
+
+.cleanversion-playlist-tracks a {
+    color: #5f7cf9;
+    text-decoration: none;
+}
+
+.cleanversion-playlist-tracks a:hover {
+    text-decoration: underline;
+}
